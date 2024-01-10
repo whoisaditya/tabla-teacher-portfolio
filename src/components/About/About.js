@@ -6,7 +6,6 @@ import PerformancesCard from "./PerformancesCard";
 
 import musicArtist from "../../Assets/about.png";
 import musicAward from "../../Assets/musicAwards.png";
-import musicPerformances from "../../Assets/musicPerformance.png";
 
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 
