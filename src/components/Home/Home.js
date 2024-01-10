@@ -14,10 +14,10 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+              {/* <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hello!{" "}
                 This is
-              </h1>
+              </h1> */}
 
               <h1 className="heading-name">
                 <strong className="main-name">Shri. Vinayak Gurav</strong>
