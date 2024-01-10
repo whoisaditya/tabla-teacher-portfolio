@@ -7,6 +7,8 @@ import R1C1 from "../../Assets/PressImages/R1C1.png";
 import R1C2 from "../../Assets/PressImages/R1C2.png";
 import R1C3 from "../../Assets/PressImages/R1C3.png";
 
+import R2C1 from "../../Assets/PressImages/R2C1.png";
+
 import "./press.css";
 
 function press() {
@@ -33,6 +35,18 @@ function press() {
               imgPath={R1C3}
             />
           </Col>
+        </Row>
+        <Row>
+        <Col md={6} lg={4} className="press-card">
+            <PressCard
+              imgPath={R2C1}
+            />
+          </Col>
+          {/* <Col md={6} lg={4} className="press-card">
+            <PressCard
+              imgPath={R2C2}
+            />
+          </Col> */}
         </Row>
       </Container>
       <ScrollToTop />
