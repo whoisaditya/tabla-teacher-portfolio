@@ -3,12 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/Avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
+  AiFillYoutube,
   AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -17,10 +15,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }} data-aos="fade-right">
-              <span className="primary-header"> ABOUT </span> ME
+              <span className="primary-header"> Brief Description </span>
             </h1>
             <p className="home-about-body" data-aos="fade-up">
-              <br />
+              {/* <br />
               I'm a <i className="primary-header">
                 Self-Taught Web Developer
               </i>{" "}
@@ -43,7 +41,9 @@ function Home2() {
               <br />
               Currently expanding my portfolio by building more{" "}
               <i className="primary-header">projects </i>projects that I can add
-              here.
+              here. */}
+
+            Shri. Vinayak Gurav is a tabla artist in Pune, India. He is Playing tabla from past twenty years. He has completed Table Visharad and Tabla Alankar from Gandharv Mahavidyalay, Mumbai in mentorship of his Gurus Pt. Manmohan Khumbhare and Pt.Anand sidhaye.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,35 +60,24 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1 data-aos="fade-right">
-              <span className="primary-header">CONNECT </span> WITH ME
+              <span className="primary-header">Social Media </span>
             </h1>
             <p data-aos="fade-left">Feel free to connect with me</p>
             <ul className="home-about-social-links" data-aos="fade-up">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Rahuljha4171"
+                  href="https://www.youtube.com/@vinayakguravtablaartist4231"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
-                  aria-label="github"
+                  aria-label="youtube"
                 >
-                  <AiFillGithub />
+                  <AiFillYoutube />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/kumardotexe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="twitter"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="mailto:rahul.workmail01@gmail.com"
+                  href="mailto:sachingurav2010@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,18 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/Rahuljha4171/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                  aria-label="linkedin"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/dead.programmer/"
+                  href="https://www.instagram.com/vinayakrgurav/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

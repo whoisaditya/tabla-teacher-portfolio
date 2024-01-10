@@ -1,72 +1,77 @@
-<h2 align="center">
-  Rahul Jha | Portfolio Website<br/>
-  <a href="https://www.rahuljha.info/" target="_blank">rahul jha</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme_img.png" />
-</div>
+# Tabla Teacher Portfolio Website
 
-<br/>
+This is a portfolio website created for a tabla teacher, showcasing their expertise and achievements in the field of tabla. The website is built using HTML, CSS, and React.js, providing a multi-page layout with a focus on a clean and responsive design. The project is based on the original repository by Rahul Jha, and proper credit is given to the original creator for their contributions.
 
-<div align="center">
+## Credits
 
-![GitHub Repo stars](https://img.shields.io/github/stars/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/rahuljha4171/Portfolio-Website?color=red&logo=github&style=for-the-badge)
-
-</div>
-
-You can fork this repo to modify and make changes according to your need. Please give me proper credit by linking back to [Rahuljha4171](https://github.com/rahuljha4171/Portfolio-Website). Thanks in Advance😍!
-
-## Built With
-
-My personal portfolio website <a href="https://www.rahuljha.info/" target="_blank">rahul jha</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project is built using these technologies.
-
-- React.js
-- CSS3
-- VsCode
-- Vercel
+Original Repository: [Rahul Jha](https://github.com/rahuljha4171/Portfolio-Website)
 
 ## Features
 
-**Multi-Page Layout**
+### Home Page
 
-**Styled with React-Bootstrap and Css**
+The home page introduces visitors to the tabla teacher, offering a brief overview of their background, skills, and a welcoming message.
 
-**Fully Responsive**
+### About Page
 
-**Dark and Light Theme**
+The about page provides detailed information about the tabla teacher, including their journey in the world of tabla, musical influences, and teaching philosophy.
+
+### Gallery Page
+
+The gallery page showcases snapshots of various events featuring the tabla teacher. Users can get a visual glimpse of the teacher's performances, workshops, and other significant moments.
+
+### Press Page
+
+The press page displays snapshots of mentions in newspapers and other media. This section highlights the tabla teacher's recognition and presence in the media.
+
+### Multi-Page Layout
+
+The website is structured with multiple pages to ensure a well-organized and comprehensive presentation of the tabla teacher's portfolio.
+
+### Styled with React-Bootstrap and CSS
+
+The project is styled using React-Bootstrap and custom CSS, ensuring a visually appealing and modern design.
+
+### Fully Responsive
+
+The website is built to be fully responsive, providing a seamless experience across various devices and screen sizes.
+
+### Dark and Light Theme
+
+Users can toggle between dark and light themes based on their preference, enhancing the overall user experience.
 
 ## Getting Started
 
-Clone this repository. You will need `node.js` and `git` installed globally on your machine.
+To run the project locally, follow these steps:
 
-## 🛠 Installation and Setup Instructions
+1. Clone the repository:
 
-1. Installation: `npm install`
+   ```bash
+   git clone https://github.com/whoisaditya/tabla-teacher-portfolio.git
+   ```
 
-2. In the project directory, you can run: `npm start`
+2. Install dependencies:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+   ```bash
+   npm install
+   ```
 
-## Usage Instructions
+3. Start the development server:
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+   ```bash
+   npm start
+   ```
 
-### Show your support
+The website should now be accessible at [http://localhost:3000](http://localhost:3000).
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Report A Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/rahuljha4171/Portfolio-Website/issues">Request A Feature</a>
+## Contribution
 
-</h3>
+If you would like to contribute to this project, feel free to submit issues or pull requests. Your contributions are highly appreciated.
 
-<p align="center">
-Give a ⭐ if you like this website!
-</p>
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to explore the tabla teacher's portfolio website and enjoy the rhythmic journey through the world of tabla!

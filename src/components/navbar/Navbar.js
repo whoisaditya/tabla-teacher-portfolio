@@ -87,22 +87,23 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/gallery"
                 onClick={() => updateExpanded(false)}
               >
-                Projects
+                Gallery
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+
+          <Nav.Item>
               <Nav.Link
-                href="https://blog.rahuljha.info/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/press"
+                onClick={() => updateExpanded(false)}
               >
-                Blogs
+                Press
               </Nav.Link>
             </Nav.Item>
-          </Nav>
+            </Nav>
 
           <Nav.Item>
             <div className="theme-switch">

@@ -16,74 +16,20 @@ function Footer() {
         <Col md="4" className="footer-copywright"></Col>
         <Col md="4" className="footer-copywright">
           <span>
-            Designed and Developed by{" "}
-            <i className="primary-header">Rahul Jha</i>
+            Redesigned and Edited by{" "}
+            <a href="https://www.linkedin.com/in/mitra-aditya/" className="primary-header">
+              Aditya Mitra.
+            </a>
           </span>
         </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="github"
-                href="https://github.com/Rahuljha4171"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="github"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="twitter"
-                href="https://twitter.com/kumardotexe"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="twitter"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="email"
-                href="mailto:rahul.workmail01@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="email"
-              >
-                <AiOutlineMail />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="linkedin"
-                href="https://www.linkedin.com/in/Rahuljha4171/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="linkedin"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                style={{ color: `var(--clr-primary)` }}
-                className="instagram"
-                href="https://www.instagram.com/dead.programmer/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="instagram"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col>
+      </Row>
+      <Row>
+        <span>
+          Originally Designed and Developed by{" "}
+          <a href="https://www.rahuljha.info/" className="primary-header">
+            Rahul Jha
+          </a>
+        </span>
       </Row>
     </Container>
   );
